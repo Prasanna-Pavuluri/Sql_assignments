@@ -1,0 +1,5 @@
+create database social_media;
+use social_media;
+create table users(username varchar(20),email varachar(100),password varchar(10),phone char(10),door_no varchar(10),followers int,bio varchar(300),post_created datetime,post_updated timestamp,photos blob,verified boolean;
+create table address(state enum('Andhra Pradesh','Telangana','Karnataka','Tamil nadu','Kerala'),city enum('Hyderabad','Banglore','chennai','Kochi','Vijayawada'),pincode int,street varchar(50));
+show tables;
